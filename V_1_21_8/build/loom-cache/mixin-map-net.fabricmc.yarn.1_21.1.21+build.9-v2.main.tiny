@@ -1,3 +1,0 @@
-v1	named	intermediary
-METHOD	tk/jandev/donutauctions/mixin/ItemStackMixin	()I	getCount	method_7947
-METHOD	tk/jandev/donutauctions/mixin/ItemStackMixin	()I	getMaxCount	method_7914

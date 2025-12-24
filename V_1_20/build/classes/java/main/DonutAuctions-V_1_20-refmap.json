@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "tk/jandev/donutauctions/mixin/ItemStackMixin": {
+      "Lnet/minecraft/item/ItemStack;hasNbt()Z": "Lnet/minecraft/class_1799;method_7985()Z",
+      "Lnet/minecraft/nbt/NbtCompound;contains(Ljava/lang/String;I)Z": "Lnet/minecraft/class_2487;method_10573(Ljava/lang/String;I)Z",
+      "getTooltip": "Lnet/minecraft/class_1799;method_7950(Lnet/minecraft/class_1657;Lnet/minecraft/class_1836;)Ljava/util/List;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "tk/jandev/donutauctions/mixin/ItemStackMixin": {
+        "Lnet/minecraft/item/ItemStack;hasNbt()Z": "Lnet/minecraft/class_1799;method_7985()Z",
+        "Lnet/minecraft/nbt/NbtCompound;contains(Ljava/lang/String;I)Z": "Lnet/minecraft/class_2487;method_10573(Ljava/lang/String;I)Z",
+        "getTooltip": "Lnet/minecraft/class_1799;method_7950(Lnet/minecraft/class_1657;Lnet/minecraft/class_1836;)Ljava/util/List;"
+      }
+    }
+  }
+}

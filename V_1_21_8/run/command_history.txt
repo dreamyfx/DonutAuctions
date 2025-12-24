@@ -1,0 +1,50 @@
+/give Player925 minecraft:diamond_sword
+/give Player925 minecraft:totem_of_undying
+/give Player291 minecraft:totem_of_undying
+/give Player80 minecraft:totem_of_undying
+/give Player712 minecraft:totem_of_undying
+/give Player151 minecraft:diamond_pickaxe
+/enchant Player151 minecraft:efficiency 5
+/enchant Player151 minecraft:unbreaking 3
+/enchant Player151 minecraft:mending
+/enchant Player151 minecraft:fortune 3
+/give Player128 minecraft:diamond_pickaxe
+/enchant Player128 minecraft:unbreaking 3
+/enchant Player128 minecraft:mending
+/enchant Player128 minecraft:efficiency 5
+/enchant Player128 minecraft:fortune 3
+/give Player866 minecraft:diamond_pickaxe
+/enchant Player866 minecraft:unbreaking 3
+/enchant Player866 minecraft:efficiency 5
+/enchant Player866 minecraft:mending
+/enchant Player866 minecraft:fortune 3
+/give Player615 minecraft:diamond_pickaxe
+/enchant Player615 minecraft:unbreaking 3
+/enchant Player615 minecraft:mending
+/enchant Player615 minecraft:efficiency 5
+/enchant Player615 minecraft:fortune 3
+/give Player615 netherite_ingot
+/give Player615 minecraft:smithing_table
+/give Player615 minecraft:netherite_upgrade_smithing_template
+/give Player246 minecraft:diamond_pickaxe
+/enchant Player246 minecraft:unbreaking 3
+/enchant Player246 minecraft:efficiency 5
+/enchant Player246 minecraft:mending
+/enchant Player246 minecraft:fortune 3
+/give Player279 minecraft:diamond_pickaxe
+/enchant Player279 minecraft:unbreaking 3
+/enchant Player279 minecraft:mending
+/enchant Player279 minecraft:efficiency 5
+/enchant Player279 minecraft:fortune 3
+/give @a minecraft:diamond_pickaxe
+/enchant Player195 minecraft:unbreaking 3
+/enchant Player195 minecraft:mending
+/enchant Player195 minecraft:efficiency 5
+/enchant Player195 minecraft:silk_touch
+/give Player618 minecraft:diamond_pickaxe
+/enchant Player618 minecraft:unbreaking 3
+/enchant Player618 minecraft:mending
+/enchant Player618 minecraft:efficiency 5
+/enchant Player618 minecraft:fortune 3
+/give Player618 minecraft:netherite_ingot
+/give Player618 minecraft:netherite_upgrade_smithing_template

@@ -1,0 +1,158 @@
+[11:54:36] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20 with Fabric Loader 0.18.0
+[11:54:36] [main/INFO] (FabricLoader) Loading 47 mods:
+	- donutauctions 1.0.0
+	- fabric-api 0.83.0+1.20
+	- fabric-api-base 0.4.29+b04edc7a27
+	- fabric-api-lookup-api-v1 1.6.34+4d8536c927
+	- fabric-biome-api-v1 13.0.10+b3afc78b27
+	- fabric-block-api-v1 1.0.9+e022e5d127
+	- fabric-blockrenderlayer-v1 1.1.39+b3afc78b27
+	- fabric-client-tags-api-v1 1.0.20+b3afc78b27
+	- fabric-command-api-v2 2.2.11+b3afc78b27
+	- fabric-content-registries-v0 4.0.7+b3afc78b27
+	- fabric-convention-tags-v1 1.5.3+b3afc78b27
+	- fabric-crash-report-info-v1 0.2.18+aeb40ebe27
+	- fabric-data-generation-api-v1 12.1.10+b3afc78b27
+	- fabric-dimensions-v1 2.1.51+b3afc78b27
+	- fabric-entity-events-v1 1.5.21+b3afc78b27
+	- fabric-events-interaction-v0 0.6.0+b3afc78b27
+	- fabric-game-rule-api-v1 1.0.38+b04edc7a27
+	- fabric-gametest-api-v1 1.2.10+b3afc78b27
+	- fabric-item-api-v1 2.1.26+b3afc78b27
+	- fabric-item-group-api-v1 4.0.7+b3afc78b27
+	- fabric-key-binding-api-v1 1.0.36+fb8d95da27
+	- fabric-lifecycle-events-v1 2.2.20+b3afc78b27
+	- fabric-loot-api-v2 1.1.37+b3afc78b27
+	- fabric-message-api-v1 5.1.6+b3afc78b27
+	- fabric-mining-level-api-v1 2.1.47+b3afc78b27
+	- fabric-models-v0 0.3.35+b3afc78b27
+	- fabric-networking-api-v1 1.3.8+b3afc78b27
+	- fabric-object-builder-api-v1 11.0.6+b3afc78b27
+	- fabric-particles-v1 1.0.28+b3afc78b27
+	- fabric-recipe-api-v1 1.0.18+b3afc78b27
+	- fabric-registry-sync-v0 2.2.6+b3afc78b27
+	- fabric-renderer-api-v1 3.0.1+b3afc78b27
+	- fabric-renderer-indigo 1.3.1+b3afc78b27
+	- fabric-rendering-data-attachment-v1 0.3.33+b3afc78b27
+	- fabric-rendering-fluids-v1 3.0.26+b3afc78b27
+	- fabric-rendering-v1 3.0.6+b3afc78b27
+	- fabric-resource-conditions-api-v1 2.3.4+b3afc78b27
+	- fabric-resource-loader-v0 0.11.7+f7923f6d27
+	- fabric-screen-api-v1 2.0.6+b3afc78b27
+	- fabric-screen-handler-api-v1 1.3.27+b3afc78b27
+	- fabric-sound-api-v1 1.0.12+b3afc78b27
+	- fabric-transfer-api-v1 3.2.2+b3afc78b27
+	- fabric-transitive-access-wideners-v1 4.2.0+b3afc78b27
+	- fabricloader 0.18.0
+	- java 21
+	- minecraft 1.20
+	- mixinextras 0.5.0
+[11:54:36] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/itsja/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[11:54:36] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[11:54:36] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[11:54:36] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[11:54:37] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[11:54:41] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 104 milliseconds
+[11:54:42] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[11:54:42] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:54:43] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:733) ~[minecraft-merged-c519cbe6f4-1.20-net.fabricmc.yarn.1_20.1.20+build.1-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:442) ~[minecraft-merged-c519cbe6f4-1.20-net.fabricmc.yarn.1_20.1.20+build.1-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[minecraft-merged-c519cbe6f4-1.20-net.fabricmc.yarn.1_20.1.20+build.1-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.18.0.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 9 more
+[11:54:43] [Render thread/INFO] (Minecraft) Setting user: Player330
+[11:54:43] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[11:54:44] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[11:54:45] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-networking-api-v1, fabric-api-base, fabric-renderer-indigo, fabric-sound-api-v1, fabric-api-lookup-api-v1, fabric-loot-api-v2, fabric-models-v0, fabric-data-generation-api-v1, fabric-rendering-v1, fabric-crash-report-info-v1, fabric-key-binding-api-v1, fabric-screen-api-v1, fabric-lifecycle-events-v1, fabric-renderer-api-v1, fabricloader, fabric-gametest-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabric-api, fabric-item-api-v1, fabric-object-builder-api-v1, fabric-rendering-data-attachment-v1, fabric-mining-level-api-v1, fabric-rendering-fluids-v1, fabric-screen-handler-api-v1, fabric-events-interaction-v0, fabric-resource-loader-v0, fabric-client-tags-api-v1, fabric-biome-api-v1, fabric-entity-events-v1, fabric-recipe-api-v1, fabric-command-api-v2, fabric-particles-v1, fabric-block-api-v1, fabric-item-group-api-v1, fabric-resource-conditions-api-v1, fabric-convention-tags-v1, fabric-message-api-v1, fabric-content-registries-v0, fabric-blockrenderlayer-v1, fabric-game-rule-api-v1, fabric-dimensions-v1, fabric-registry-sync-v0)
+[11:54:45] [Worker-Main-4/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[11:54:45] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
+[11:54:46] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[11:54:46] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:54:46] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on SyncMaster (NVIDIA High Definition Audio)
+[11:54:46] [Render thread/INFO] (Minecraft) Sound engine started
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[11:54:46] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[11:54:46] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[11:54:52] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[11:54:52] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[11:54:53] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 2.183 ms
+[11:54:53] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20
+[11:54:53] [Server thread/INFO] (Minecraft) Generating keypair
+[11:54:54] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[11:54:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[11:54:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[11:54:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[11:54:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[11:54:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[11:54:56] [Render thread/INFO] (Minecraft) Time elapsed: 2469 ms
+[11:54:56] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[11:54:56] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[11:54:57] [Server thread/INFO] (Minecraft) Player330[local:E:18999e18] logged in with entity id 126 at (-194.9729480830381, 71.0, 403.3081499386783)
+[11:54:57] [Server thread/INFO] (Minecraft) Player330 joined the game
+[11:54:57] [Render thread/INFO] (Minecraft) Loaded 4 advancements
+[11:55:00] [pool-4-thread-1/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":".waqas122","uuid":"00000000-0000-0000-0009-01faf9ed24af"},"price":10000,"time_left":82623212,"item":{"id":"minecraft:dirt","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} Infinity -> 156.25
+[11:55:00] [pool-4-thread-2/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":"kesaka","uuid":"637ff0e2-51d1-4aa6-82cf-6b4567cda069"},"price":10000,"time_left":79893682,"item":{"id":"minecraft:oak_leaves","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} Infinity -> 156.25
+[11:55:15] [pool-4-thread-3/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":"ging_02052014","uuid":"88953804-9486-40c0-a3f5-a0570b7b1776"},"price":6000,"time_left":82734376,"item":{"id":"minecraft:snowball","count":16,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} Infinity -> 375.0
+[11:55:45] [Render thread/INFO] (Minecraft) Loaded 7 advancements
+[11:55:55] [pool-4-thread-4/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":"x_mini_max","uuid":"4e33485c-8e72-43db-a8c3-425a2d17d35a"},"price":20000,"time_left":82212821,"item":{"id":"minecraft:spruce_log","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} Infinity -> 312.5
+[11:55:55] [pool-4-thread-4/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":"hustleween","uuid":"79ea6faa-ab98-4dbc-96dc-4bd5617a050d"},"price":4000,"time_left":82193667,"item":{"id":"minecraft:spruce_log","count":14,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} 312.5 -> 285.7142857142857
+[11:56:08] [pool-4-thread-5/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":".vaporygazelle68","uuid":"00000000-0000-0000-0009-01f4b2a1c2a5"},"price":1000000,"time_left":79408780,"item":{"id":"minecraft:spruce_planks","count":30,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} Infinity -> 33333.333333333336
+[11:56:08] [pool-4-thread-5/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":".wanaplaynow1819","uuid":"00000000-0000-0000-0009-01f93feb5a5a"},"price":1000000,"time_left":58327613,"item":{"id":"minecraft:spruce_planks","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} 33333.333333333336 -> 15625.0
+[11:56:08] [pool-4-thread-5/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":"clipseis","uuid":"58f53124-56c8-4deb-9500-6f360f32c358"},"price":100000,"time_left":56098965,"item":{"id":"minecraft:spruce_planks","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} 15625.0 -> 1562.5
+[11:56:08] [pool-4-thread-5/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":"juniorgaming312","uuid":"b7649330-4178-4e8c-99f2-ee6e73a4a654"},"price":40000,"time_left":54478878,"item":{"id":"minecraft:spruce_planks","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} 1562.5 -> 625.0
+[11:56:08] [pool-4-thread-5/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":"plutoniousrblx","uuid":"13fa62b9-8ec8-4795-86bf-3b88daedb268"},"price":30000,"time_left":39130279,"item":{"id":"minecraft:spruce_planks","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} 625.0 -> 468.75
+[11:56:08] [Render thread/INFO] (Minecraft) Loaded 18 advancements
+[11:56:20] [pool-4-thread-6/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":".ties_026","uuid":"00000000-0000-0000-0009-01f397b3b29d"},"price":7000,"time_left":82573792,"item":{"id":"minecraft:wheat_seeds","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} Infinity -> 109.375
+[11:56:20] [pool-4-thread-6/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":"drtrupac","uuid":"2fcebe6b-430b-4e14-a44e-c51eb92235de"},"price":5000,"time_left":81812297,"item":{"id":"minecraft:wheat_seeds","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} 109.375 -> 78.125
+[11:56:30] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:56:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[11:56:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[11:56:30] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[11:56:32] [Render thread/INFO] (Minecraft) Using default channel type
+[11:56:32] [Render thread/INFO] (Minecraft) Started serving on 59084
+[11:56:32] [Render thread/INFO] (Minecraft) [System] [CHAT] Local game hosted on port [59084]
+[11:56:36] [Server thread/INFO] (Minecraft) [Player330: Gave 1 [Barrier] to Player330]
+[11:56:36] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Barrier] to Player330
+[11:56:41] [Server thread/INFO] (Minecraft) [Player330: Gave 1 [Monster Spawner] to Player330]
+[11:56:41] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Monster Spawner] to Player330
+[11:57:02] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[11:57:05] [pool-4-thread-9/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":".sevenboar409894","uuid":"00000000-0000-0000-0009-01f5dd648bbc"},"price":55000,"time_left":73288152,"item":{"id":"minecraft:snow_block","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} Infinity -> 859.375
+[11:57:05] [pool-4-thread-9/INFO] (Minecraft) [STDOUT]: updated price from {"seller":{"name":"corluc","uuid":"96d27e80-656b-4d4d-9d17-5da719672f67"},"price":50000,"time_left":71182824,"item":{"id":"minecraft:snow_block","count":64,"display_name":"","lore":null,"enchants":{"enchantments":{"levels":null},"trim":{"material":"","pattern":""}},"contents":null}} 859.375 -> 781.25
+[11:57:32] [Render thread/INFO] (Minecraft) Loaded 20 advancements
+[12:01:26] [Server thread/INFO] (Minecraft) Player330 lost connection: Disconnected
+[12:01:26] [Server thread/INFO] (Minecraft) Player330 left the game
+[12:01:26] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[12:01:26] [Server thread/INFO] (Minecraft) Stopping server
+[12:01:26] [Server thread/INFO] (Minecraft) Saving players
+[12:01:26] [Server thread/INFO] (Minecraft) Saving worlds
+[12:01:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12:01:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[12:01:26] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[12:01:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[12:01:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:01:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:01:26] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[12:01:27] [Render thread/INFO] (Minecraft) Stopping!
